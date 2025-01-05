@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mashfa kamal faza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <div class="logo-text">Mashfa Kamal Faza</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="profil.html">Profil</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    <div class="slide">
+        <div class="visual-section">
+        <div class="nav">
+        </div>
+			<div class="slide">
+				<div class="visual-section">
+					<div class="grid">
+						<div class="card">
+							<img src="img1.jpeg" alt="poster grafika">
+                        <div class="hero-text">
+                            <p><b>Project Poster Grafika</b></p>
+                        </div>
+						</div>
+						<div class="card">
+                            <img src="img2.jpeg" alt="poster grafika">
+                        <div class="hero-text">
+                            <p><b>Project Poster Grafika</b></p>
+                        </div>
+						</div>
+						<div class="card">
+							<img src="img3.jpeg" alt="website portofolio IMK">
+                        <div class="hero-text">
+                            <p><b>Project website portofolio IMK</b></p>
+                        </div>
+						</div>
+					    </div>
+                        <div class="grid">
+						<div class="card">
+							<img src="img4.jpeg" alt="website toko desain web">
+                        <div class="hero-text">
+                            <p><b>Project website toko Desain Web</b></p>
+                        </div>
+						</div>
+						<div class="card">
+                            <img src="img5.jpeg" alt="desain grafika">
+                        <div class="hero-text">
+                            <p><b>Desain grafika</b></p>
+                        </div>
+						</div>
+						<div class="card">
+							<img src="img6.jpeg" alt="Desain logo">
+                        <div class="hero-text">
+                            <p><b>Desain Logo </b></p>
+                        </div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer-section">
+                    <h3>About Me</h3>
+                    <p>
+                        Mashfa Kamal Faza - Seorang pengembang web yang penuh semangat dan selalu ingin belajar 
+                        teknologi terbaru.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://github.com/Kamlfzaa02"><i class="fab fa-github"></i></a>
+                        <a href="https://wa.me/6288229799838"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/_kamlfzaa/profilecard/?igsh=YWdvZDJycmtxM25s"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Mashfa Kamal Faza.
+            </div>
+        </footer>
+             
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+       var togglebtn=document.querySelector(".togglebtn");
+       var nav=document.querySelector(".navlinks");
+       var links=document.querySelector(".navlinks li");
+
+       togglebtn.addEventListener("click", function(){
+           this.classList.toggle("click");
+           nav.classList.toggle("open");
+       })
+
+       var typed=new Typed(".input",{
+           strings:["Modeling 3D","UX Designer","Fotografer"],
+           typedSpeed:70,
+           backSpeed:55,
+           loop:true
+       })
+    </script>
+</body>
+</html>

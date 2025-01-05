@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mashfa kamal faza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <div class="logo-text">Mashfa Kamal Faza</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="profil.html">Profil</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+  
+        <div class="slide">
+            <div class="visual-section">
+                <div style="display: grid; margin-left: 40px; margin-bottom: 40px; grid-template-columns: 1fr 1fr; gap: 30px;">
+                    <div class="form">
+                        <h2>Hubungi Saya</h2>
+                        <div style="margin-bottom: 15px;">
+                            <label>Nama:</label>
+                            <input type="text" placeholder="Masukkan nama..." style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px;"/>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label>Email:</label>
+                            <input type="email" placeholder="Masukkan email..." style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px;"/>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label>Pesan:</label>
+                            <textarea placeholder="Tulis pesan..." style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px; height: 100px;"></textarea>
+                        </div>
+                        <button style="padding: 10px 20px; background: #6c5ce7; color: white; border: none; border-radius: 4px;">Kirim Pesan</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+          <div class="wrapper">
+              <div class="footer-section">
+                  <h3>About Me</h3>
+                  <p>
+                      Mashfa Kamal Faza - Seorang pengembang web yang penuh semangat dan selalu ingin belajar 
+                      teknologi terbaru.
+                  </p>
+              </div>
+              <div class="footer-section">
+                  <h3>Follow Me</h3>
+                  <div class="social-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://github.com/Kamlfzaa02"><i class="fab fa-github"></i></a>
+                      <a href="https://wa.me/6288229799838"><i class="fab fa-whatsapp"></i></a>
+                      <a href="https://www.instagram.com/_kamlfzaa/profilecard/?igsh=YWdvZDJycmtxM25s"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              &copy; 2025 Mashfa Kamal Faza.
+          </div>
+      </footer>
+       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+
+        togglebtn.addEventListener("click", function() {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        });
+
+        var typed = new Typed(".input", {
+            strings: ["Modeling 3D", "UX Designer", "Fotografer"],
+            typeSpeed: 70,
+            backSpeed: 55,
+            loop: true
+        });
+    </script>
+</body>
+</html>
